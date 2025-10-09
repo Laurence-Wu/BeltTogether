@@ -1,0 +1,19 @@
+{
+    // Workspace-level defaults for the Microsoft C/C++ extension (AVR toolchain)
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/avr-gcc.exe",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.defines": [
+        "F_CPU=16000000UL",
+        "__AVR__",
+        "__AVR_ATmega328P__"
+    ],
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/msys64/mingw64/avr/include",
+        "C:/msys64/mingw64/include",
+        "C:/msys64/mingw64/lib/gcc/avr/15.1.0/include",
+        "C:/msys64/mingw64/lib/gcc/avr/15.1.0/include-fixed"
+    ]
+}

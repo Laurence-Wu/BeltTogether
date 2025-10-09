@@ -1,0 +1,51 @@
+
+{
+
+    "configurations": [
+
+        {
+
+            "name": "Arduino",
+
+            "includePath": [
+
+                "${workspaceFolder}/**",
+
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino",
+
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/**",
+
+                "C:/Program Files (x86)/Arduino/libraries/**",
+
+                "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/**"
+
+            ],
+
+            "defines": [
+
+                "ARDUINO=10819",
+
+                "ARDUINO_AVR_MEGA2560",
+
+                "ARDUINO_ARCH_AVR",
+
+                "__AVR_ATmega2560__"
+
+            ],
+
+            "compilerPath": "C:/Program Files (x86)/Arduino/hardware/tools/avr/bin/avr-gcc.exe",
+
+            "cStandard": "c11",
+
+            "cppStandard": "c++11",
+
+            "intelliSenseMode": "gcc-x64"
+
+        }
+
+    ],
+
+    "version": 4
+
+}
+

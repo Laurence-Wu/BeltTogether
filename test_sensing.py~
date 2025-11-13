@@ -83,7 +83,7 @@ def scene_3_multiple_objects():
     # Create sensor
     sensor = VL53L5CXSensor(
         position=[0, 0, 0],
-        direction=[0, 2, 1],
+        direction=[0, 0, 1],
         grid_size=8,  # Higher resolution
         add_noise=True,
         unit='mm'

@@ -1,0 +1,7 @@
+numpy
+scipy
+soundfile
+pysofaconventions
+netCDF4
+vpython
+sounddevice

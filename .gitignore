@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and cache
+.pytest_cache/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Audio artifacts and large generated files
+*.wav
+*.flac
+*.ogg
+
+# Local env config
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
